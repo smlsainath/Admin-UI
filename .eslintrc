@@ -13,8 +13,11 @@
     "sourceType": "module"
   },
   "plugins": ["prettier"],
-  "rules": {
-    "prettier/prettier": "error",
+  "rules": { 
+    "no-debugger":"off",
+    "prettier/prettier": ["warn",{
+      "endOfLine": "auto"}
+    ],
     "react/jsx-filename-extension": [1, {"extensions": [".js", ".jsx"]}],
     "react/state-in-constructor": "off",
     "react/react-in-jsx-scope": "off",

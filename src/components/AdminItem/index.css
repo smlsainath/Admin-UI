@@ -4,55 +4,91 @@
   align-items: center;
 }
 
-.logo-and-title-container {
+.admin-item-container {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  padding: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
-.currency-logo {
+.checkbox-item {
   width: 16px;
   height: 16px;
-  margin-right: 8px;
+  
 }
 
 @media (min-width: 576px) {
-  .currency-logo {
-    width: 32px;
-    height: 32px;
-    margin-right: 16px;
+  .checkbox-item {
+    width: 23px;
+    height: 23px;
+    margin-right: 200px;
   }
 }
 
-.currency-name {
+.admin-name {
   color: #ffffff;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 500;
+  
 }
 
 @media (min-width: 576px) {
-  .currency-name {
+  .admin-name {
     font-size: 16px;
+    margin-right: 100px;
   }
 }
 
-.usd-and-euro-values-container {
+.admin-email {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  
+
+}
+
+@media (min-width: 576px) {
+  .admin-email {
+    font-size: 16px;
+    margin-left: 50px;
+    margin-right: 100px;
+    
+    
+  }
+} 
+
+.admin-role {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  
+}
+
+@media (min-width: 576px) {
+  .admin-role {
+    font-size: 16px;
+    margin-right: 100px;
+    
+  }
+}
+
+
+.action-items {
   display: flex;
+  justify-content: space-around;
   align-items: center;
+} 
+
+.edit {
+  width: 16px;
+  height: 16px;
+  color: white;
 }
 
-.currency-value {
-  text-align: right;
-  color: #ffffff;
-  font-size: 12px;
-  font-weight: 500;
-  width: 52px;
-  margin-left: 8px;
-}
-
-@media (min-width: 576px) {
-  .currency-value {
-    font-size: 16px;
-    width: 72px;
-    margin-left: 48px;
-  }
+.delete {
+  width: 16px;
+  height: 16px;
+  color: white;
 }
